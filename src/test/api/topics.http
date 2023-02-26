@@ -4,3 +4,13 @@ content-type: application/json
 
 ### Get A topic
 GET http://localhost:8080/topics/java HTTP/1.1
+
+### Add Topic
+POST http://localhost:8080/topics HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "javaee",
+  "name": "Enterprise Java",
+  "description": "Enterprise Java Description"
+}
