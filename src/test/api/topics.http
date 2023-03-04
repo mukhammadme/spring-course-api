@@ -14,3 +14,17 @@ Content-Type: application/json
   "name": "Enterprise Java",
   "description": "Enterprise Java Description"
 }
+
+### Update Topic
+PUT http://localhost:8080/topics/javascript HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "javascript",
+  "name": "JavaScript",
+  "description": "Updated JavaScript Description"
+}
+
+### Remove topic
+DELETE http://localhost:8080/topics/javaee HTTP/1.1
+Content-Type: application/json
